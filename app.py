@@ -111,7 +111,6 @@ if st.session_state.uploaded:
                         <div style="border: 2px solid #4CAF50; padding: 8px; border-radius: 10px; margin-bottom: 10px; font-size: 0.9rem;">
                             <h4 style="color: #4CAF50; font-size: 1.1rem;">{course['Course Code']} - {course['Course Name']}</h4>
                             <p><strong style="color: #e74c3c;">Time:</strong> <span style="font-weight: bold;">{course['Time']}</span></p>
-                            <p><strong>Departments & Sections:</strong> {', '.join(course['Departments & Sections'])}</p>
                         </div>
                         """, unsafe_allow_html=True
                     )

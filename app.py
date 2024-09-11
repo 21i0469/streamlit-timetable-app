@@ -73,7 +73,6 @@ if not st.session_state.uploaded:
         # Extract the timetable data and save it to session state
         st.session_state.timetable_data = extract_timetable_data(df)
         st.session_state.uploaded = True
-        st.experimental_rerun()
 
 # Course selection and display step
 if st.session_state.uploaded:
